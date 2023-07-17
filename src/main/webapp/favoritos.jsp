@@ -1,4 +1,5 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +13,7 @@
             <%@ include file="components/navigation.jsp" %>
         </header>
         <div class="content-page">
-            <h1>Home Dashboard Page</h1>
+            <h1>FAVORITES PAGE</h1>
         </div>
     </div>
 </body>
