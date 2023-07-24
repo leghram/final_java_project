@@ -1,3 +1,10 @@
+.logo-space {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: solid red 2px;
+}
+
 nav {
   display: flex;
   flex-direction: column;
