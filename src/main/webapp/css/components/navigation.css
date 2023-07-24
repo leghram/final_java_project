@@ -1,34 +1,70 @@
-nav{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+nav {
+  display: flex;
+  flex-direction: column;
 }
 
-.body-content{
-    display: flex;
+.body-content {
+  display: flex;
+  margin: 20px 0px;
+  height: calc(100vh - 40px);
 }
 
-.menu-navigation{
-    width: 20%;
-    padding: 0px 2%;
-    background-color: white;
+.menu-navigation {
+  width: 20%;
+  padding: 0px 30px;
+  background-color: white;
+  height: 100%;
+  position: relative;
 }
 
-.content-page{
-    width:80%;
-    background-color: rgb(224, 224, 224);
+.content-page {
+  width: 60%;
+  background-color: rgb(245, 249, 248);
+  border-radius: 50px;
 }
 
-.menu-items-data{
-    display: flex;
-    flex-direction: column;
+.content-info {
+  width: 20%;
+  padding: 0px 2%;
+  background-color: white;
 }
 
-.item-menu{
-    font-size: 1.5rem;
-    padding: 15px 0px;
+.menu-items-data {
+  display: flex;
+  flex-direction: column;
 }
 
-.active-url{
-    background-color: darkseagreen;
+.item-menu {
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: rgb(115, 132, 140);
+}
+
+.active-url {
+  background-color: rgb(30, 194, 139, 0.95);
+  color: white;
+}
+
+.logout-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 30px 30px;
+}
+
+.logout-header > button {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(115, 132, 140);
+  border: none;
+  text-align: left;
 }
