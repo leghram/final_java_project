@@ -8,15 +8,7 @@
   </head>
   <body>
     <div class="body-content">
-      <header class="menu-navigation">
-        <div>
-          <h2>LOGO</h2>
-        </div>
-        <%@ include file="components/navigation.jsp" %>
-        <div class="logout-header">
-          <h2>LOG OUT</h2>
-        </div>
-      </header>
+      <%@ include file="components/header.jsp" %>
       <div class="content-page">
         <h1>Home Dashboard Page</h1>
       </div>
