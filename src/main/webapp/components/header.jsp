@@ -2,7 +2,7 @@
   <div class="logo-space">
     <img
       class="logo-space"
-      src="https://raw.githubusercontent.com/leghram/final_java_project/master/src/assets/logo.PNG"
+      src="https://vectips.com/wp-content/uploads/2014/03/logoinsp1.jpg"
       alt="logo"
     />
   </div>
