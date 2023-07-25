@@ -12,6 +12,7 @@
       <%@ include file="components/header.jsp" %>
       <div class="content-page">
         <%@ include file="components/header_index.jsp" %>
+        <%@ include file="components/best_travel_section_index.jsp" %>
       </div>
       <div class="content-info">
         <h1>Home Dashboard Page</h1>
