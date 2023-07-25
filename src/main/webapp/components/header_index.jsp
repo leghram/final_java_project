@@ -4,6 +4,6 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
   </div>
   <div class="header-index-search">
-    <input type="text" placeholder="search" />
+    <input class="search-input-index" type="text" placeholder="search" />
   </div>
 </div>

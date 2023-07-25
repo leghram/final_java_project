@@ -28,7 +28,26 @@ nav {
   width: 60%;
   background-color: rgb(245, 249, 248);
   border-radius: 50px;
+  overflow: auto;
+  scrollbar-width: thin; 
 }
+
+.content-page::-webkit-scrollbar {
+  padding: 20px 0px;
+  width: 2px; 
+  height: 10px; 
+}
+
+.content-page::-webkit-scrollbar-thumb {
+  background-color: #938f8f; 
+  border-radius: 5px; 
+  padding: 20px 0px;
+}
+
+.content-page::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
 
 .content-info {
   width: 20%;
